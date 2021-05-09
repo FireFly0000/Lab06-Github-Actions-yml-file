@@ -26,5 +26,5 @@ int Rectangle::perimeter(){
 }
 
 int Rectangle::area() {
-    return -1;
+    return 0;
 }
