@@ -75,8 +75,19 @@ TEST(PerimeterTest, LargeVal) {
 
     EXPECT_EQ(rect1.perimeter(), 300);
 }
+TEST(PerimeterTest, ZeroHeight) {
 
+    Rectangle rect1(3, 0);
 
+    EXPECT_EQ(rect1.perimeter(), 0);
+
+}
+TEST(PerimeterTest, ZeroWidth) {
+
+    Rectangle rect1(0, 4);
+
+    EXPECT_EQ(rect1.perimeter(), 0);
+}
 
 
 int main(int argc, char **argv) {
