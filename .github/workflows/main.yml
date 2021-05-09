@@ -31,7 +31,7 @@ jobs:
 
      
       - name: Make
-        run: make test
+        run: make area_calculator
 
       - name: Execute test
-        run: ./test
+        run: ./area_calculator
