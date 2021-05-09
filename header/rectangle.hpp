@@ -9,10 +9,10 @@ class Rectangle {
         Rectangle();
         Rectangle(int w,int h);
  	int get_width(){
-		return this->width;
+		return -1;
 	}
 	int get_height(){
-		return this->height;
+		return -1;
 	}
         void set_width(int w);
         void set_height(int h);
