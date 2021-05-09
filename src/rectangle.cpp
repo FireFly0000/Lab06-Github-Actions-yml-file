@@ -28,7 +28,7 @@ int Rectangle::perimeter(){
 	return 0;
 	}
 
-	return(this->width + this->height)*2;}
+	return(this->width + this->height)*2;
 }
 
 int Rectangle::area() {
