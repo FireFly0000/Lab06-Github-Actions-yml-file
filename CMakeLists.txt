@@ -7,9 +7,9 @@ ADD_EXECUTABLE(area_calculator
     src/main.cpp
     src/rectangle.cpp
 )
-#ADD_EXECUTABLE(test
-   #tests/test.cpp
-#)
+ADD_EXECUTABLE(test
+   tests/test.cpp
+)
 
-#TARGET_LINK_LIBRARIES(test gtest)
-#TARGET_COMPILE_DEFINITIONS(test PRIVATE gtest_disable_pthreads=ON)
+TARGET_LINK_LIBRARIES(test gtest)
+TARGET_COMPILE_DEFINITIONS(test PRIVATE gtest_disable_pthreads=ON)
