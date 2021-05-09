@@ -32,7 +32,7 @@ jobs:
         run: cmake .
      
       - name: Make
-        run: make area_calculator
+        run: make test
 
       - name: Execute test
-        run: ./area_calculator
+        run: ./test
