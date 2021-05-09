@@ -25,9 +25,11 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
+      - name: update googletest
+        run: git submodule update --init --recursive 
+
       - name: Build Cmake
         run: cmake .
-
      
       - name: Make
         run: make area_calculator
