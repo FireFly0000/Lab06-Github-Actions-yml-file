@@ -22,15 +22,9 @@ Rectangle::Rectangle(int w, int h){
 	set_height(h);
 }
 int Rectangle::perimeter(){
-
-	if (this->width == 0 || this->height == 0) // width and height must be positive values 
-	{ 
-	return 0;
-	}
-
-	return(this->width + this->height)*2;}
+	return -1;
 }
 
 int Rectangle::area() {
-    return this->width * this->height;
-}
+	return -1;
+    }
